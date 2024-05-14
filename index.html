@@ -10,12 +10,7 @@
 <body>
     <div id="collect">
         <div id="flag">
-            <div id="red" style="background-color: red; grid-area: 'red';"></div>
-            <div id="orange" style="background-color: orange; grid-area: 'orange';"></div>
-            <div id="yellow" style="background-color: yellow; grid-area: 'yellow';"></div>
-            <div id="green" style="background-color: green; grid-area: 'green';"></div>
-            <div id="blue" style="background-color: blue; grid-area: 'blue';"></div>
-            <div id="purple" style="background-color: purple; grid-area: 'purple';"></div>
+
         </div>
         <div id="gradient">
         </div>
@@ -26,8 +21,7 @@
     #flag {
         height: 500px;
         width: 500px;
-        display: grid;
-        grid-template-areas: 'red orange yellow green blue purple';
+        background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
     }
 
     #flag div {
